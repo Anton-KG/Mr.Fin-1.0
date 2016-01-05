@@ -1,0 +1,11 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+    <diskStore path="java.io.tmpdir"/>
+    <cache name="bank"
+            maxElementsInMemory="500"
+            eternal="false"
+            overflowToDisk="true"
+            diskPersistent="true"
+            memoryStoreEvictionPolicy="LFU"
+    />
+</ehcache>

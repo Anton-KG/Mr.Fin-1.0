@@ -1,0 +1,167 @@
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+
+}
+
+body input:required:valid,
+body textarea:required:valid {
+
+}
+
+body {
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+}
+
+.header_topline {
+    background-color: #43484C;
+    padding: 12px 0;
+    color: #fff;
+}
+.text-muted {
+    color: lightblue;
+    padding: 0px 0;
+    vertical-align: middle;
+}
+
+.header_wrapper {
+    height: 50px;
+    line-height: 50px;
+}
+
+.name_wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.name_wrapper h3 {
+    margin: 0;
+}
+
+.header_topline a {
+    color: #fff;
+}
+
+.top_links {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.top_links a {
+    text-decoration: underline;
+}
+
+.top_links a:hover {
+    text-decoration: none;
+}
+
+.auth_buttons {
+    background-color: transparent;
+    border: medium none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.sider_container img {
+    max-width: 100%;
+    background-color: transparent;
+}
+
+.converter_wrapper {
+    min-height: 70px;
+    line-height: 70px; 
+}
+
+.converter {
+    margin-top: 150px;
+    margin-bottom: auto;
+}
+
+.converter_text {
+    display: block;
+    padding: 15px 0;
+    margin: 35px 0;
+    color: #fff;
+    background-color: #2980B9;
+    text-align: center;
+    font-size: 20px;
+}
+
+.converter_item_wrapper{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.converter_buttons {
+    font-size: 15px;
+    color: #2980B9;
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.convert_button {
+    display: block;
+    font-size: 30px;
+    color: #2980B9;
+    text-align: center;
+    cursor: pointer;
+}
+
+.convert_button.replace {
+    -moz-transform: rotate(0deg); 
+    -ms-transform: rotate(0deg); 
+    -webkit-transform: rotate(0deg); 
+    -o-transform: rotate(0deg); 
+    transform: rotate(0deg);
+    transition: .1s ease-out;
+    transition-delay: 0s;
+}
+
+.convert_button.replace:active {
+    -moz-transform: rotate(90deg); 
+    -ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    -o-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+
+
+
+.footer {
+    width: 100%;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #43484C;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.footer a {
+    color: #fff;
+}

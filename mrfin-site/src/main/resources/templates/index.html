@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>MrFinPROTOTYPE</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <script type="text/javascript" src='/webjars/jquery/2.1.4/jquery.js'/>
+    <script type="text/javascript" src='/webjars/jquery-ui/1.11.4/jquery-ui.js'/>
+
+    <link rel='stylesheet' href='/webjars/bootstrap/3.3.6/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/webjars/jquery-ui/1.11.4/jquery-ui.min.css'/>
+
+    <link href="../static/css/jquery-ui.customer.theme.min.css" th:href="@{css/jquery-ui.customer.theme.min.css}" rel="stylesheet"/>
+    <link href="../static/css/fonts.css" th:href="@{css/fonts.css}" rel="stylesheet" media="screen"/>
+    <link href="../static/css/main.css" th:href="@{css/main.css}" rel="stylesheet" media="screen"/>
+    <link href="../static/css/media.css" th:href="@{css/media.css}" rel="stylesheet" media="screen"/>
+    <link href="../static/libs/font-awesome-4.2.0/css/font-awesome.min.css"
+          th:href="@{libs/font-awesome-4.2.0/css/font-awesome.min.css}" rel="stylesheet" media="screen"/>
+</head>
+<body>
+<input type="hidden" id="router_url" th:value="${router_url}"/>
+
+<div id="dialog-message" title="Error">
+    <p id="title-error">
+        Text error.
+    </p>
+</div>
+
+<header class="top_header header_wrapper">
+    <div class="header_topline">
+        <div class="container">
+            <div class="col-xs-6 col-sm-6">
+                <div class="name_wrapper">
+                    <h3 class="text-muted text-left "><strong>Mr.Fin</strong></h3>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6">
+                <div class="clearfix" style="float: right; display: table-cell">
+                    <div style="float: left">
+                        <button class="auth_buttons text-left"><i class="fa fa-user"></i></button>
+                        <a class="hidden-xs" href="#">Sign in</a>
+                    </div>
+                    <div style="float: right">
+                        <span>/</span>
+                        <a class="text-left" href="#">Log in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="converter">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <a href="#" class="converter_text">Currency converter</a>
+            </div>
+        </div>
+    </div>
+    <div class="converter_buttons">
+        <div class="container converter_wrapper">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="src_amount converter_item_wrapper">
+                        <input id="srcAmount" type="text" min="0" class="form-control" placeholder="Currency I have"
+                               aria-describedby="basic-addon2"/>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="source_currency converter_item_wrapper" align="right">
+                        <select id="srcCurrency" class="form-control grad3"></select>
+                    </div>
+                </div>
+                <div class="col-md-1" align="center">
+                    <a id="replaceCurrencies" class="convert_button replace converter_item_wrapper">
+                        <i class="fa fa-refresh"></i>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <div class="destination_currency converter_item_wrapper" align="left">
+                        <select id="dstCurrency" class="form-control grad3" name="select"></select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="dst_amount converter_item_wrapper">
+                        <input id="dstAmount" type="text" min="0" class="form-control" placeholder="Currency I want"
+                               aria-describedby="basic-addon2" readonly="readonly"/>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <a id="convertCurrencyButton" class="convert_button">
+                        <i class="fa fa-arrow-circle-o-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <p>&copy; 2015 ExtremeJunior, Inc.</p>
+</footer>
+<script src="../static/js/common.js" th:src="@{js/common.js}"></script>
+</body>
+</html>

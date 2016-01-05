@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:noNamespaceSchemaLocation="EPA_GEODATA_v1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Header>
+<Title>USEPA Geospatial Data</Title>
+<Creator>Environmental Protection Agency</Creator>
+<Subject>USEPA Geospatial Data</Subject>
+<Description>This XML file was produced by US EPA and contains data specifying the locations of EPA regulated facilities or cleanups that are being provided by EPA for use by commercial mapping services and others with an interest in using this information. Updates to this file are produced on a regular basis by EPA and those updates as well as documentation describing the contents of the file can be found at URL:http://www.epa.gov/enviro</Description>
+<Date>SEP-22-2015</Date>
+</Header>
+<FacilitySite registryId="110007915364">
+<FacilitySiteName>GREAT SOUTHERN WOOD PRESERVING INC</FacilitySiteName>
+<LocationAddressText>1100 HIGHWAY 431 NORTH</LocationAddressText>
+<LocalityName>ABBEVILLE</LocalityName>
+<LocationAddressStateCode>AL</LocationAddressStateCode>
+<LocationZIPCode>36310</LocationZIPCode>
+<LatitudeMeasure>31.59</LatitudeMeasure>
+<LongitudeMeasure>-85.278333</LongitudeMeasure>
+<HorizontalCoordinateReferenceSystemDatumName>NAD83</HorizontalCoordinateReferenceSystemDatumName>
+<HorizontalCollectionMethodName>UNKNOWN</HorizontalCollectionMethodName>
+<GeneralProfileElectronicAddress>
+<ElectronicAddressText>http://oaspub.epa.gov/enviro/fac_gateway.main?p_regid=110007915364</ElectronicAddressText>
+<ElectronicAddressTypeName>URL</ElectronicAddressTypeName>
+</GeneralProfileElectronicAddress>
+<Program>
+<ProgramCommonName>TRIS</ProgramCommonName>
+<ProgramAcronymName>TRIS</ProgramAcronymName>
+<ProgramIdentifier>36310GRTSTHWY43</ProgramIdentifier>
+<ProgramInterestType>TRI REPORTER</ProgramInterestType>
+<ProgramFullName>Toxics Release Inventory Program</ProgramFullName>
+<ProgramDescription>The Toxics Release Inventory (TRI) is a publicly available EPA database that contains information on toxic chemical releases and other waste management activities reported annually by certain covered industry groups as well as federal facilities.</ProgramDescription>
+<ProgramFacilitySiteName>GREAT SOUTHERN WOOD PRESERVING INC</ProgramFacilitySiteName>
+<ProgramProfileElectronicAddress>
+<ElectronicAddressText>http://www.epa.gov/tri/</ElectronicAddressText>
+<ElectronicAddressTypeName>URL</ElectronicAddressTypeName>
+</ProgramProfileElectronicAddress>
+</Program>
+</FacilitySite>
+<FacilitySite registryId="110000369084">
+<FacilitySiteName>REMBRANDT FOODS- ABBEVILLE</FacilitySiteName>
+<LocationAddressText>496 INDUSTRIAL PARK RD</LocationAddressText>
+<LocalityName>ABBEVILLE</LocalityName>
+<LocationAddressStateCode>AL</LocationAddressStateCode>
+<LocationZIPCode>36310</LocationZIPCode>
+<LatitudeMeasure>31.555725</LatitudeMeasure>
+<LongitudeMeasure>-85.287302</LongitudeMeasure>
+<HorizontalCoordinateReferenceSystemDatumName>NAD83</HorizontalCoordinateReferenceSystemDatumName>
+<HorizontalCollectionMethodName>GPS CARRIER PHASE STATIC RELATIVE POSITION</HorizontalCollectionMethodName>
+<GeneralProfileElectronicAddress>
+<ElectronicAddressText>http://oaspub.epa.gov/enviro/fac_gateway.main?p_regid=110000369084</ElectronicAddressText>
+<ElectronicAddressTypeName>URL</ElectronicAddressTypeName>
+</GeneralProfileElectronicAddress>
+Program>
+<ProgramCommonName>TRIS</ProgramCommonName>
+<ProgramAcronymName>TRIS</ProgramAcronymName>
+<ProgramIdentifier>36310CTLRGINDUS</ProgramIdentifier>
+<ProgramInterestType>TRI REPORTER</ProgramInterestType>
+<ProgramFullName>Toxics Release Inventory Program</ProgramFullName>
+<ProgramDescription>The Toxics Release Inventory (TRI) is a publicly available EPA database that contains information on toxic chemical releases and other waste management activities reported annually by certain covered industry groups as well as federal facilities.</ProgramDescription>
+<ProgramFacilitySiteName>REMBRANDT FOODS- ABBEVILLE</ProgramFacilitySiteName>
+<ProgramProfileElectronicAddress>
+<ElectronicAddressText>http://www.epa.gov/tri/</ElectronicAddressText>
+<ElectronicAddressTypeName>URL</ElectronicAddressTypeName>
+</ProgramProfileElectronicAddress>
+</Program>
+</FacilitySite>
+</Document>
